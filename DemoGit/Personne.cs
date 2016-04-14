@@ -30,13 +30,9 @@ namespace DemoGit
                 _Age = value;
             }
         }
-        
-        public Personne()
-        {
-            this.Nom = "Personne de test";
-            this.Age = 18;
-        }
 
+        public Personne() : this("Personne de test", 18) { }
+        
         public Personne(string nom, int age)
         {
             this.Nom = nom;
@@ -48,11 +44,7 @@ namespace DemoGit
         {
             return String.Format("Nom={0}, Age={1}", _Nom, _Age);
         }
-
-        public void Afficher()
-        {
-            Console.WriteLine(this.ToString());
-        }
+              
 
     }
 }
