@@ -23,6 +23,12 @@ namespace DemoGit
         {
             this.Salaire = salaire;
         }
+        public Salarie() : base()
+        {
+            this.Salaire = 1000;
+        }
+
+
 
     }
 }
