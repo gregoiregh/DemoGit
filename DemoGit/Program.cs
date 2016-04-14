@@ -10,6 +10,12 @@ namespace DemoGit
     {
         static void Main(string[] args)
         {
+            Personne p1 = new Personne("Toto", 20);
+            Console.WriteLine(p1);
+            Personne p2 = new Personne();
+            Console.WriteLine(p2);
+            Console.ReadKey();
         }
+    }
     }
 }
