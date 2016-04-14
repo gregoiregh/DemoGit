@@ -4,6 +4,7 @@ namespace DemoGit
 {
     public class Salarie : Personne
     {
+        
         private int _Salaire;
         private string _Service;
 
@@ -35,8 +36,7 @@ namespace DemoGit
         {
             this.Salaire = 1000;
         }
-
-
-
+        
+        
     }
 }

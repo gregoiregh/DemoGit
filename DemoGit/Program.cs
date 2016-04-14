@@ -14,6 +14,10 @@ namespace DemoGit
             Console.WriteLine(p1);
             Personne p2 = new Personne();
             Console.WriteLine(p2);
+
+            Personne p3 = new Salarie();
+            Console.WriteLine(p3);
+
             Console.ReadKey();
         }
     }
