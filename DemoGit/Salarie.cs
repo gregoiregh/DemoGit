@@ -5,6 +5,13 @@ namespace DemoGit
     public class Salarie : Personne
     {
         private int _Salaire;
+        private string _Service;
+
+        public string Service
+        {
+            get { return _Service; }
+            set { _Service = value; }
+        }
 
         public int Salaire
         {
@@ -19,9 +26,10 @@ namespace DemoGit
             }
         }
 
-        public Salarie(string nom,int age, int salaire) : base (nom, age)
+        public Salarie(string nom,int age, int salaire, string service) : base (nom, age)
         {
             this.Salaire = salaire;
+            this.Service = service;
         }
         public Salarie() : base()
         {
